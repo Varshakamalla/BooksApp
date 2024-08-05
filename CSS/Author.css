@@ -1,0 +1,75 @@
+/* Ensure you replace the path with the correct location of your CSS file */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    background-color: #f8f9fa;
+}
+
+#author-details {
+    margin-top: 20px;
+}
+
+#author-details img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.author-bio {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.book-info {
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.book-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.book-price {
+    font-size: 1.25rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.book-reviews {
+    margin-top: 20px;
+}
+
+.book-reviews h4 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.review {
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.review-date {
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+footer {
+    margin-top: 20px;
+}

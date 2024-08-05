@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="C:\Users\ADMIN\Desktop\BooksApp\CSS\Home.css">
+</head>
+<body>
+    <header class="bg-light">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <div class="navbar-brand d-flex align-items-center">
+                        <img src="C:\Users\ADMIN\Desktop\BooksApp\IMG\logo-main.jpeg" alt="Books App Logo" width="50" height="50" class="me-2">
+                        <h3 class="mb-0">Books App</h3>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <form class="d-flex mx-auto">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </form>
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link" href="./Cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                            <li class="nav-item"><a class="nav-link" href="./Wishlist.html"><i class="fa-regular fa-heart"></i></a></li>
+                            <li class="nav-item"><a class="nav-link" href="./MyProfile.html"><i class="fa-regular fa-user"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="bg-secondary py-2">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-auto">
+                    <div class="dropdown">
+                        <button class="btn btn-light dropdown-toggle" type="button" id="categoriesDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            All Categories
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="categoriesDropdown">
+                            <li><a class="dropdown-item" href="./BestSellers.html">Bestsellers</a></li>
+                            <li><a class="dropdown-item" href="./NewArrivals.html">New Arrivals</a></li>
+                            <li><a class="dropdown-item" href="./FictionBooks.html">Fiction Books</a></li>
+                            <li><a class="dropdown-item" href="./NewArrivals.html">Newly Added</a></li>
+                            <li><a class="dropdown-item" href="./Romance.html">Romance</a></li>
+                            <li><a class="dropdown-item" href="./Children.html">Children</a></li>
+                            <li><a class="dropdown-item" href="./trading.html">Trading Books</a></li>
+                            <li><a class="dropdown-item" href="./self-help.html">Self-help</a></li>
+                            <li><a class="dropdown-item" href="#">Poetry</a></li>
+                            <li><a class="dropdown-item" href="#">Comics</a></li>
+                            <li><a class="dropdown-item" href="#">Horror</a></li>
+                            <li><a class="dropdown-item" href="#">LOVE</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item"><a class="nav-link text-white" href="./BestSellers.html">Bestseller Books</a></li>
+                        <li class="nav-item"><span class="nav-link text-white">|</span></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="./FictionBooks.html">Fiction Books</a></li>
+                        <li class="nav-item"><span class="nav-link text-white">|</span></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="./self-help.html">Self-Help</a></li>
+                        <li class="nav-item"><span class="nav-link text-white">|</span></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="./Horror.html">Horror Books</a></li>
+                        <li class="nav-item"><span class="nav-link text-white">|</span></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="./Login.html">Login</a></li>
+                        <li class="nav-item"><span class="nav-link text-white">|</span></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="./Registration.html">Register</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main class="container my-4">
+        <section id="featured-books">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2>BestSellers</h2>
+                <a href="./BestSellers.html" class="btn btn-primary">More</a>
+            </div>
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="C:\Users\ADMIN\Desktop\BooksApp\IMG\Best1.webp" class="card-img-top" alt="Book 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Can't Hurt Me</h5>
+                            <p class="card-author">
+                                <a href="./Author.html" class="text-decoration-none">David Goggins</a>
+                            </p>
+                            <div class="card-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <p class="card-price">$19.99</p>
+                            <a href="#" class="btn btn-primary">Add to Basket</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat the above block for other book cards -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="C:\Users\ADMIN\Desktop\BooksApp\IMG\Best2.webp" class="card-img-top" alt="Book 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Children</h5>
+                            <p class="card-author">
+                                <a href="./Author.html" class="text-decoration-none">Author Name</a>
+                            </p>
+                            <div class="card-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <p class="card-price">$15.99</p>
+                            <a href="#" class="btn btn-primary">Add to Basket</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="C:\Users\ADMIN\Desktop\BooksApp\IMG\Best3.jpg" class="card-img-top" alt="Book 3">
+                        <div class="card-body">
+                            <h5 class="card-title">New Arrivals</h5>
+                            <p class="card-author">
+                                <a href="./Author.html" class="text-decoration-none">Author Name</a>
+                            </p>
+                            <div class="card-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <p class="card-price">$22.99</p>
+                            <a href="#" class="btn btn-primary">Add to Basket</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="C:\Users\ADMIN\Desktop\BooksApp\IMG\Best4.webp" class="card-img-top" alt="Book 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Self-Help</h5>
+                            <p class="card-author">
+                                <a href="./Author.html?author=AuthorName" class="text-decoration-none">Author Name</a>
+                            </p>
+                            <div class="card-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <p class="card-price">$17.99</p>
+                            <a href="#" class="btn btn-primary">Add to Basket</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add two more book cards here to have 6 in total -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-light text-center py-3 mt-4">
+        <p>&copy; 2024 Books App. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

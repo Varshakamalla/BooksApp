@@ -1,0 +1,82 @@
+/* General styling for both login and registration pages */
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-container {
+    background-color: rgba(255, 255, 255, 0.8); /* semi-transparent background */
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .form-buttons {
+    text-align: center;
+  }
+  
+  .form-buttons button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .form-buttons button[type="reset"] {
+    background-color: #6c757d;
+  }
+  
+  .form-buttons button:hover {
+    opacity: 0.9;
+  }
+  
+  .register-link, .login-link {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .register-link a, .login-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .register-link a:hover, .login-link a:hover {
+    text-decoration: underline;
+    color: red;
+  }
+  

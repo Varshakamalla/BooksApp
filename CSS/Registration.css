@@ -1,0 +1,15 @@
+body {
+  background-color: #f8f9fa;
+}
+.card {
+  border-radius: 8px;
+}
+.form-check-label {
+  margin-bottom: 0;
+}
+.form-check-input {
+  margin-top: 0.3rem;
+}
+.form-group {
+  margin-bottom: 1rem;
+}

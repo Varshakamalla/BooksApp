@@ -1,0 +1,98 @@
+/* General styles for the wishlist page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+    /* Style for the header */
+    background-color: #ffffff;
+    border-bottom: 1px solid #dee2e6;
+}
+
+footer {
+    background-color: #ffffff;
+    border-top: 1px solid #dee2e6;
+}
+
+.container {
+    padding: 2rem;
+}
+
+/* Wishlist item cards */
+.card {
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    overflow: hidden;
+    background-color: #ffffff;
+    width: 250px; /* Reduced width */
+    margin: 1rem auto; /* Center align with margin */
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    object-fit: cover;
+    padding: 10px; /* Padding around the image */
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.card-author {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+}
+
+.card-rating {
+    margin-bottom: 0.5rem;
+}
+
+.card-rating i {
+    color: #ffc107;
+}
+
+.card-price {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+    color: #ffffff;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+/* Responsive design */
+@media (max-width: 767.98px) {
+    .card-img-top {
+        height: 150px;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-img-top {
+        height: 200px;
+    }
+}
